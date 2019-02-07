@@ -1,3 +1,9 @@
+linux-raspi2 (5.0.0-1001.1) disco; urgency=medium
+
+  * Initial disco/raspi2 packaging 
+
+ -- Paolo Pisati <paolo.pisati@canonical.com>  Thu, 07 Feb 2019 11:36:03 +0100
+
 linux-raspi2 (4.15.0-1032.34) bionic; urgency=medium
 
   * linux-raspi2: 4.15.0-1032.34 -proposed tracker (LP: #1814728)
