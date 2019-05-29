@@ -764,7 +764,6 @@ dpot-dac
 drbd
 drm
 drm_kms_helper
-drm_panel_orientation_quirks
 drop_monitor
 drv260x
 drv2665
