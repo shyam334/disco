@@ -102,10 +102,8 @@ static int bcm2835_rng_init(struct hwrng *rng)
 	}
 
 	/* set warm-up count & enable */
-	if (!(rng_readl(priv, RNG_CTRL) & RNG_RBGEN)) {
-		rng_writel(priv, RNG_WARMUP_COUNT, RNG_STATUS);
-		rng_writel(priv, RNG_RBGEN, RNG_CTRL);
-	}
+	rng_writel(priv, RNG_WARMUP_COUNT, RNG_STATUS);
+	rng_writel(priv, RNG_RBGEN, RNG_CTRL);
 
 	return ret;
 }
