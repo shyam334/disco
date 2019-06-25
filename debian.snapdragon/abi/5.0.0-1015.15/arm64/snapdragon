@@ -15765,6 +15765,7 @@ EXPORT_SYMBOL_GPL net/netfilter/nf_synproxy_core 0x00000000	synproxy_parse_optio
 EXPORT_SYMBOL_GPL net/netfilter/nf_synproxy_core 0x00000000	synproxy_tstamp_adjust
 EXPORT_SYMBOL_GPL net/netfilter/nf_tables 0x00000000	__nft_release_basechain
 EXPORT_SYMBOL_GPL net/netfilter/nf_tables 0x00000000	nf_tables_bind_set
+EXPORT_SYMBOL_GPL net/netfilter/nf_tables 0x00000000	nf_tables_deactivate_set
 EXPORT_SYMBOL_GPL net/netfilter/nf_tables 0x00000000	nf_tables_destroy_set
 EXPORT_SYMBOL_GPL net/netfilter/nf_tables 0x00000000	nf_tables_unbind_set
 EXPORT_SYMBOL_GPL net/netfilter/nf_tables 0x00000000	nft_chain_validate
