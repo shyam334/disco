@@ -3145,7 +3145,6 @@ snd-seq-midi-event
 snd-seq-oss
 snd-seq-virmidi
 snd-serial-u16550
-snd-soc-3dlab-nano-player
 snd-soc-ac97
 snd-soc-acp-da7219mx98357-mach
 snd-soc-acp-rt5645-mach
