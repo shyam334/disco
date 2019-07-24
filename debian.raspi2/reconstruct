@@ -3,6 +3,7 @@
 [ ! -L 'arch/arm64/boot/dts/overlays' ] && ln -sf '../../../arm/boot/dts/overlays' 'arch/arm64/boot/dts/overlays'
 # Remove any files deleted from the orig.
 rm -f 'Documentation/admin-guide/l1tf.rst'
+rm -f 'arch/s390/mm/gup.c'
 rm -f 'drivers/net/phy/asix.c'
 rm -f 'include/linux/selinux.h'
 rm -f 'security/integrity/platform_certs/efi_parser.c'
@@ -184,6 +185,7 @@ chmod +x 'drivers/net/wireless/realtek/rtl8192cu/wlan0dhcp'
 chmod +x 'scripts/kmsg-doc'
 chmod +x 'scripts/knlinfo'
 chmod +x 'scripts/mkknlimg'
+chmod +x 'tools/testing/selftests/netfilter/conntrack_icmp_related.sh'
 chmod +x 'ubuntu/vbox-update'
 chmod +x 'update-version-dkms'
 exit 0
