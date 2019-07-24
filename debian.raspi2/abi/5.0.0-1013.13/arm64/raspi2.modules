@@ -328,6 +328,7 @@ authencesn
 autofs4
 ax25
 ax88179_178a
+ax88796b
 axis-fifo
 axnet_cs
 axp20x
@@ -749,6 +750,7 @@ dmard06
 dmard09
 dmard10
 dme1737
+dmi-sysfs
 dn_rtmsg
 dnet
 docg3
@@ -883,6 +885,7 @@ eeprom
 eeprom_93cx6
 eeprom_93xx46
 eeti_ts
+efivarfs
 efs
 egalax_ts
 egalax_ts_serial
@@ -2876,6 +2879,7 @@ rtc-ds1685
 rtc-ds1742
 rtc-ds2404
 rtc-ds3232
+rtc-efi
 rtc-em3027
 rtc-fm3130
 rtc-ftrtc010
@@ -2920,6 +2924,7 @@ rtc-rk808
 rtc-rp5c01
 rtc-rs5c348
 rtc-rs5c372
+rtc-rv3028
 rtc-rv3029c2
 rtc-rv8803
 rtc-rx4581
@@ -3203,6 +3208,7 @@ snd-soc-cs42xx8-i2c
 snd-soc-cs43130
 snd-soc-cs4349
 snd-soc-cs53l30
+snd-soc-da7213
 snd-soc-da7219
 snd-soc-digidac1-soundcard
 snd-soc-dionaudio-loco
@@ -3225,9 +3231,12 @@ snd-soc-gtm601
 snd-soc-hdmi-codec
 snd-soc-hifiberry-dacplus
 snd-soc-hifiberry-dacplusadc
+snd-soc-i-sabre-codec
+snd-soc-i-sabre-q2m
 snd-soc-ics43432
 snd-soc-imx-audmux
 snd-soc-inno-rk3036
+snd-soc-iqaudio-codec
 snd-soc-iqaudio-dac
 snd-soc-justboom-dac
 snd-soc-max9759
