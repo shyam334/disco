@@ -19,6 +19,7 @@
 842_decompress
 88pg86x
 88pm800
+88pm800-regulator
 88pm805
 88pm80x
 88pm80x_onkey
@@ -209,6 +210,7 @@ adt7475
 adt7x10
 adummy
 adutux
+adv7511-v4l2
 adv7604
 adv7842
 adv_pci1710
@@ -2103,6 +2105,7 @@ ir-xmp-decoder
 ir35221
 irq-madera
 iscsi_boot_sysfs
+iscsi_ibft
 iscsi_target_mod
 iscsi_tcp
 isdn
